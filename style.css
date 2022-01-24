@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Vujahday+Script & display=swap');
+
+        body{
+            margin: 0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            background-image: url(imagens/art08.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            color: blanchedalmond;
+            
+        }
+        header{
+            height: 115px;
+            text-align: center;
+        }
+        h1{
+            font-size: 6vw;
+        }
+        a{
+            text-decoration: none;
+            color: darkgray;
+            font-size: 1.5em;
+        }
+        main{
+            font-size: 3.5vw;
+            margin: 0;
+            
+
+        }
+        section{
+            padding: 10px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+            font-style: italic;
+            margin: 0;
+        }
+        .claro{
+            color:black;
+            background-attachment: fixed;
+            
+        }
+
+        section.claro > p {
+            padding: 3px;
+            width: 400px;
+            background-color: rgba(248, 248, 248, 0.699);
+        }
+        
+        #art04{
+            background-image: url(imagens/fundo.jpg);
+            
+        }
+        #art06{
+            background-image: url(imagens/art06.jpg);
+        }
+        
+        footer{
+            background-color: rgb(46, 47, 49);
+            height: 25px;
+            text-align: center;
+        }
